@@ -1,0 +1,39 @@
+# Dvele
+
+> Dvele is a US-based manufacturer of high-performance, all-electric prefab modular homes built for the climate era. Founded in 2018, Dvele homes exceed Passive House standards, are net-positive in energy, and are produced through advanced off-site manufacturing to be healthier, more sustainable, and more affordable than conventional construction.
+
+Dvele (from the Norwegian word for "dwell") engineers homes around health, energy independence, and longevity. Core proprietary systems include Self-Powered™ (solar-plus-battery energy independence that keeps critical systems running during grid outages) and Dvele IQ™ (a home operating system that monitors air and water quality, humidity, energy use, and VOC levels). The company has delivered over 270 modules. Note: all canonical URLs use the www subdomain (https://www.dvele.com).
+
+## Main pages
+
+- [Homes](https://www.dvele.com/homes): Browse available floorplans and home models.
+- [Process](https://www.dvele.com/process): How buying and building a Dvele home works — choose a floorplan, pick the design, move in.
+- [Benefits](https://www.dvele.com/benefits): Overview of what sets Dvele homes apart.
+- [Developers](https://www.dvele.com/developers): Information for property developers and multi-unit projects.
+- [Project Portfolio](https://www.dvele.com/projects): Gallery of completed Dvele home projects.
+- [About Us](https://www.dvele.com/about-us): Company mission, founding story, and philosophy.
+- [Contact](https://www.dvele.com/contact): Get in touch to start a project or ask questions.
+
+## Benefits and technology
+
+- [Self-Powered™](https://www.dvele.com/benefit/self-powered): Solar and battery system for clean, renewable energy and grid-outage resilience.
+- [Dvele IQ™](https://www.dvele.com/benefit/dvele-iq): The home's operating system, collecting millions of data points monthly to monitor home and occupant health.
+- [Environmental Impact](https://www.dvele.com/benefit/environmental-impact): Net-positive energy and reduced embodied carbon in production.
+- [Health-Centric](https://www.dvele.com/benefit/health-centric): Design focused on clean air, clean water, and occupant well-being.
+- [Advanced Manufacturing](https://www.dvele.com/benefit/advanced-manufacturing): Next-generation building science and off-site production techniques.
+
+## Resources
+
+- [Blog](https://www.dvele.com/blog): Articles on prefab homes, sustainability, and building science.
+- [FAQ](https://www.dvele.com/faq): Common questions about Dvele homes and the buying process.
+- [Press](https://www.dvele.com/press/overview): Media coverage and press resources.
+- [Investor Relations](https://www.dvele.com/investor-relations): Information for investors.
+- [Altadena](https://www.dvele.com/altadena): Dedicated page for the Altadena project/region.
+
+## Optional
+
+- [Privacy Policy](https://www.dvele.com/privacy-policy): How Dvele handles user data and cookies.
+- [Terms of Use](https://www.dvele.com/terms-of-use): Website terms and conditions.
+- [Instagram](https://www.instagram.com/_dvele_/): Photos and updates.
+- [YouTube](https://www.youtube.com/channel/UC9qC3948nigdLCoD7Kw4yWA): Video content and home tours.
+- [LinkedIn](https://ca.linkedin.com/company/dvele): Company news and careers.

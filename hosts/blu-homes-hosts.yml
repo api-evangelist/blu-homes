@@ -1,0 +1,81 @@
+generated: '2026-09-29'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 6
+  own: 2
+  other_domain: 1
+  platform: 3
+  roles:
+  - api
+  - other
+  - source
+  - website
+hosts:
+- host: api.dvele.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: dvele.com
+  role: api
+  relation: own
+- host: ca.linkedin.com
+  found_by:
+  - docs-index
+  types: []
+  serves:
+  - docs
+  registrable_domain: linkedin.com
+  role: other
+  relation: platform
+- host: github.com
+  found_by:
+  - pointer
+  types:
+  - GitHubOrganization
+  serves: []
+  registrable_domain: github.com
+  role: source
+  relation: platform
+- host: www.dvele.com
+  found_by:
+  - pointer
+  - probed
+  - docs-index
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - TermsOfService
+  - PrivacyPolicy
+  - Newsroom
+  - DeveloperPortal
+  - Blog
+  - Website
+  serves:
+  - docs
+  - cdn
+  vendor: cloudflare
+  registrable_domain: dvele.com
+  role: website
+  relation: own
+- host: www.instagram.com
+  found_by:
+  - docs-index
+  types: []
+  serves:
+  - docs
+  registrable_domain: instagram.com
+  role: other
+  relation: other-domain
+- host: www.youtube.com
+  found_by:
+  - docs-index
+  types: []
+  serves:
+  - docs
+  registrable_domain: youtube.com
+  role: other
+  relation: platform

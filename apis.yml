@@ -1,23 +1,76 @@
 aid: blu-homes
+
 name: Blu Homes
-description: 'Blu Homes is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Blu Homes, originally a modular home builder, has been acquired by Dvele and now operates under the Dvele brand. The company focuses on sustainable, precision-engineered homes with low environmental impact, offering modern modular designs, advanced manufacturing, and health‑centric living spaces. Through Dvele, Blu Homes continues to provide innovative, energy‑efficient housing solutions for developers and homeowners seeking high‑quality, customizable homes.'
+
 url: https://raw.githubusercontent.com/api-evangelist/blu-homes/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-29 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-29'
+
 modified: '2026-09-29'
+
 tags:
 - Company
-apis: []
+- Modular Homes
+- Sustainable Housing
+- Real Estate
+- Dvele
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: LLMsTxt
+  url: llms/blu-homes-llms.txt
+- type: WellKnown
+  url: well-known/blu-homes-well-known.yml
+- type: Hosts
+  url: hosts/blu-homes-hosts.yml
+- type: Vendors
+  url: vendors/blu-homes-vendors.yml
+- type: TermsOfService
+  url: https://www.dvele.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.dvele.com/privacy-policy
+- type: Newsroom
+  url: https://www.dvele.com/press/overview
+- type: DeveloperPortal
+  url: https://www.dvele.com/developers
+- type: Blog
+  url: https://www.dvele.com/blog
+- type: GitHubOrganization
+  url: https://github.com/dvele
+- type: DomainSecurity
+  url: security/blu-homes-domain-security.yml
 - type: Website
-  url: https://forgeglobal.com/blu-homes_stock/
+  url: https://www.dvele.com/blu-homes/modern-modular-homes
+
+apis: []
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: Developer portal at https://www.dvele.com/developers returns HTML pages without machine‑readable OpenAPI or other contracts.
+  evidence:
+    - url: https://www.dvele.com/developers
+      status: 200
+  checked: '2026-09-29'
+x-enrichment:
+  date: '2026-09-29'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
